@@ -92,6 +92,8 @@ const Navbar: React.FC = () => {
         onClick={() => onSelectMenuItem(defaultMenuItem)}
       >
         <Image src="/images/redditFace.svg" height="30px" />
+        Deteriora
+        {/*
         <Image
           src={
             colorMode === "light"
@@ -101,6 +103,7 @@ const Navbar: React.FC = () => {
           height="46px"
           display={{ base: "none", md: "unset" }}
         />
+        */}
       </Flex>
       {user && <Directory />}
       <SearchInput user={user} />
